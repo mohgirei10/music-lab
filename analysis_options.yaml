@@ -1,0 +1,37 @@
+# analysis_options.yaml
+
+# This file configures the static analysis for your Dart/Flutter project.
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # ================== Customize rules below if needed ==================
+
+    # Allow print statements during development (remove this line later)
+    avoid_print: false
+
+    # Prefer using const constructors where possible
+    prefer_const_constructors: true
+
+    # Prefer const literals
+    prefer_const_literals_to_create_immutables: true
+
+    # Require const for constructor calls when possible
+    prefer_const_constructors_in_immutables: true
+
+    # Optional: You can enable more strict rules later
+    # unnecessary_statements: true
+    # use_key_in_widget_constructors: true
+
+# Analyzer settings
+analyzer:
+  exclude:
+    - build/**
+    - lib/**/*.g.dart
+    - lib/**/*.freezed.dart
+
+  errors:
+    # Treat missing API keys or deprecated members as warnings instead of errors
+    deprecated_member_use: warning
+    invalid_use_of_visible_for_testing_member: warning
