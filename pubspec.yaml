@@ -29,11 +29,11 @@ flutter:
 
   # AIzaSyDIJq6yn_5GFUSmDFPGWBwv4AwtM5WQUmQ
 
-
-  flutter_launcher_icons:
+# THIS MUST BE AT THE VERY EDGE (NO SPACES BEFORE IT)
+flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/images/your_logo.png"
+  image_path: "assets/images/logo.png"
   web:
     generate: true
-    image_path: "assets/images/your_logo.png"
+    image_path: "assets/images/logo.png"
