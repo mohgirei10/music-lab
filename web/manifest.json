@@ -1,6 +1,6 @@
 {
-    "name": "traphouse_app",
-    "short_name": "traphouse_app",
+    "name": "THE LAB",
+    "short_name": "THE LAB",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
