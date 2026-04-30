@@ -22,14 +22,6 @@ flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
-  
-  # assets:
-  #   - assets/images/
-  #   - assets/songs/
-
-  # AIzaSyDIJq6yn_5GFUSmDFPGWBwv4AwtM5WQUmQ
-
-# THIS MUST BE AT THE VERY EDGE (NO SPACES BEFORE IT)
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
